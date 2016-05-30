@@ -1,0 +1,12 @@
+{
+  "name": "Flat-Dark-Theme",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Flat Dark Theme for Atom",
+  "repository": "https://github.com/abhishekgahlot/Flat-Dark-Atom-Theme",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
