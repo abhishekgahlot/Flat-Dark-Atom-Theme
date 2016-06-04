@@ -1,1 +1,35 @@
-@import "./stylesheets/base.less";
+@import "./styles/base.less";
+
+atom-text-editor{
+  background: @background;
+}
+
+atom-text-editor .gutter,
+:host .gutter {
+  background: @background;
+}
+
+atom-text-editor .wrap-guide,
+:host .wrap-guide {
+    color: @background;
+}
+
+atom-panel-container.left atom-panel,
+atom-panel-container.left .tool-panel,
+atom-panel-container.bottom .tool-panel,
+.tab-bar .tab.active {
+  background-color: @background !important;
+}
+
+.tab-bar {
+  background-color: fade(@background, 82%) !important;
+}
+
+.tab-bar::before {
+  background-image: none !important;
+  border-left: 1px solid #313740;
+}
+
+.tab-bar .tab::before{
+  background-color: transparent !important;
+}

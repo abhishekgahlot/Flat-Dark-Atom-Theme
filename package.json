@@ -1,12 +1,15 @@
 {
-  "name": "Flat-Dark-Theme",
+  "name": "flat-dark-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
-  "private": false,
-  "description": "Flat Dark Theme for Atom",
-  "repository": "https://github.com/abhishekgahlot/Flat-Dark-Atom-Theme",
+  "version": "0.0.0",
+  "description": "A short description of your syntax theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/flat-dark-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }
